@@ -1,0 +1,12 @@
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\bin\Debug\net7.0\Entity.deps.json
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\bin\Debug\net7.0\Entity.dll
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\bin\Debug\net7.0\Entity.pdb
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\obj\Debug\net7.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\obj\Debug\net7.0\Entity.AssemblyInfoInputs.cache
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\obj\Debug\net7.0\Entity.AssemblyInfo.cs
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\obj\Debug\net7.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\obj\Debug\net7.0\Entity.sourcelink.json
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\obj\Debug\net7.0\Entity.dll
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\obj\Debug\net7.0\refint\Entity.dll
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\obj\Debug\net7.0\Entity.pdb
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\obj\Debug\net7.0\ref\Entity.dll
