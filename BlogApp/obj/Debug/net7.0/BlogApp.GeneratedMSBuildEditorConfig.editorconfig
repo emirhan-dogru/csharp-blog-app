@@ -17,3 +17,11 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\BlogApp
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Posts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

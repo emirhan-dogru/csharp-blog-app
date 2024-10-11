@@ -66,3 +66,5 @@ C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\BlogApp\bin\Debug\
 C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\BlogApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\BlogApp\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\BlogApp\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\BlogApp\obj\Debug\net7.0\BlogApp.RazorAssemblyInfo.cache
+C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\BlogApp\obj\Debug\net7.0\BlogApp.RazorAssemblyInfo.cs
