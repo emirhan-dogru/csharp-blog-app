@@ -6,6 +6,7 @@ using BlogApp.Models;
 using Data.Abstract;
 using Data.Concrete.EfCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlogApp.Controllers
 {
@@ -23,10 +24,14 @@ namespace BlogApp.Controllers
             return View(
                 new PostViewsModel
                 {
-                    Posts = _postRepository.Posts.ToList(),
-                    Tags = _tagRepository.Tags.ToList(),
+                    Posts = _postRepository.Posts.ToList()
                 }
             );
+        }
+
+        public async Task<IActionResult> Details(string? url)
+        {
+            return View(await _postRepository.Posts.FirstOrDefaultAsync(p => p.Url == url));
         }
     }
 }

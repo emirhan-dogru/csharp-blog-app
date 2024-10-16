@@ -53,10 +53,16 @@ namespace Data.Migrations
                     b.Property<DateTime?>("CreatedAt")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("TEXT");
+
                     b.Property<bool>("IsActive")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Title")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Url")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("UserId")
@@ -78,6 +84,9 @@ namespace Data.Migrations
                     b.Property<string>("Text")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Url")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("TagId");
 
                     b.ToTable("Tags");
@@ -88,6 +97,9 @@ namespace Data.Migrations
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("UserName")
                         .HasColumnType("TEXT");

@@ -1305,11 +1305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\BlogApp\\BlogApp\\BlogApp.csproj",
+      "projectUniqueName": "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\blogapp\\BlogApp\\BlogApp.csproj",
       "projectName": "BlogApp",
-      "projectPath": "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\BlogApp\\BlogApp\\BlogApp.csproj",
+      "projectPath": "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\blogapp\\BlogApp\\BlogApp.csproj",
       "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\BlogApp\\BlogApp\\obj\\",
+      "outputPath": "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\blogapp\\BlogApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1327,8 +1327,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\BlogApp\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\BlogApp\\Data\\Data.csproj"
+            "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\blogapp\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\blogapp\\Data\\Data.csproj"
             }
           }
         }

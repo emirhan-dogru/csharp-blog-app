@@ -24,10 +24,10 @@ namespace BlogApp
                 if (!context.Tags.Any())
                 {
                     context.Tags.AddRange(
-                        new Tag { TagId = 1, Text = "Backend" },
-                        new Tag { TagId = 2, Text = "Frontend" },
-                        new Tag { TagId = 3, Text = "Fullstack" },
-                        new Tag { TagId = 4, Text = "Python" }
+                        new Tag { TagId = 1, Text = "Backend" , Url = "backend" },
+                        new Tag { TagId = 2, Text = "Frontend" , Url = "frontend" },
+                        new Tag { TagId = 3, Text = "Fullstack" , Url = "full-stack" },
+                        new Tag { TagId = 4, Text = "Python" , Url = "pyhton" }
                     );
                     context.SaveChanges();
                 }
@@ -48,6 +48,7 @@ namespace BlogApp
                             PostId = 1,
                             Title = "Asp.net core",
                             Content = "Asp.net core dersleri",
+                            Url = "asp-net-core",
                             IsActive = true,
                             CreatedAt = DateTime.Now.AddDays(-10),
                             Tags = context.Tags.Take(3).ToList(),
@@ -58,6 +59,7 @@ namespace BlogApp
                             PostId = 2,
                             Title = "Pyhton",
                             Content = "Pyhton dersleri",
+                            Url = "pyhton",
                             IsActive = true,
                             CreatedAt = DateTime.Now.AddDays(-5),
                             Tags = context.Tags.Take(2).ToList(),
@@ -68,6 +70,7 @@ namespace BlogApp
                             PostId = 3,
                             Title = "Nodejs",
                             Content = "Nodejs dersleri",
+                            Url = "node-js",
                             IsActive = true,
                             CreatedAt = DateTime.Now.AddDays(-2 ),
                             Tags = context.Tags.Take(2).ToList(),
