@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Entity
-build_property.ProjectDir = C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\blogapp\Entity\
+build_property.ProjectDir = C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\Entity\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

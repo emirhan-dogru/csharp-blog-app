@@ -1,0 +1,7 @@
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+BlogApp/wwwroot/lib/bootstrap/scss/*

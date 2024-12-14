@@ -24,10 +24,10 @@ namespace BlogApp
                 if (!context.Tags.Any())
                 {
                     context.Tags.AddRange(
-                        new Tag { TagId = 1, Text = "Backend" , Url = "backend" },
-                        new Tag { TagId = 2, Text = "Frontend" , Url = "frontend" },
-                        new Tag { TagId = 3, Text = "Fullstack" , Url = "full-stack" },
-                        new Tag { TagId = 4, Text = "Python" , Url = "pyhton" }
+                        new Tag { TagId = 1, Text = "Backend", Url = "backend", Color = TagColors.warning },
+                        new Tag { TagId = 2, Text = "Frontend", Url = "frontend", Color = TagColors.secondary },
+                        new Tag { TagId = 3, Text = "Fullstack", Url = "full-stack", Color = TagColors.danger },
+                        new Tag { TagId = 4, Text = "Python", Url = "pyhton", Color = TagColors.primary }
                     );
                     context.SaveChanges();
                 }
@@ -35,8 +35,8 @@ namespace BlogApp
                 if (!context.Users.Any())
                 {
                     context.Users.AddRange(
-                        new User {UserId = 1, UserName = "eemirhandogru"},
-                        new User {UserId = 2, UserName = "testusername"}
+                        new User { UserId = 1, UserName = "eemirhandogru", Image = "p1.jpg" },
+                        new User { UserId = 2, UserName = "testusername", Image = "p2.jpg" }
                     );
                     context.SaveChanges();
                 }
@@ -44,7 +44,8 @@ namespace BlogApp
                 if (!context.Posts.Any())
                 {
                     context.Posts.AddRange(
-                        new Post {
+                        new Post
+                        {
                             PostId = 1,
                             Title = "Asp.net core",
                             Content = "Asp.net core dersleri",
@@ -53,9 +54,14 @@ namespace BlogApp
                             CreatedAt = DateTime.Now.AddDays(-10),
                             Tags = context.Tags.Take(3).ToList(),
                             Image = "1.jpg",
-                            UserId = 1
+                            UserId = 1,
+                            Comments = new List<Comment> { 
+                                new Comment{ Text = "iyi bir kurs" , CreatedAt = DateTime.Now.AddDays(-2) , UserId = 1 },
+                                new Comment{ Text = "iyi bir kurs" , CreatedAt = DateTime.Now.AddDays(-10) , UserId = 2 },
+                            }
                         },
-                        new Post {
+                        new Post
+                        {
                             PostId = 2,
                             Title = "Pyhton",
                             Content = "Pyhton dersleri",
@@ -63,20 +69,21 @@ namespace BlogApp
                             IsActive = true,
                             CreatedAt = DateTime.Now.AddDays(-5),
                             Tags = context.Tags.Take(2).ToList(),
-                             Image = "2.jpg",
+                            Image = "2.jpg",
                             UserId = 1
                         },
-                         new Post {
-                            PostId = 3,
-                            Title = "Nodejs",
-                            Content = "Nodejs dersleri",
-                            Url = "node-js",
-                            IsActive = true,
-                            CreatedAt = DateTime.Now.AddDays(-2 ),
-                            Tags = context.Tags.Take(2).ToList(),
+                         new Post
+                         {
+                             PostId = 3,
+                             Title = "Nodejs",
+                             Content = "Nodejs dersleri",
+                             Url = "node-js",
+                             IsActive = true,
+                             CreatedAt = DateTime.Now.AddDays(-2),
+                             Tags = context.Tags.Take(2).ToList(),
                              Image = "3.jpg",
-                            UserId = 2
-                        }
+                             UserId = 2
+                         }
                     );
                     context.SaveChanges();
                 }
