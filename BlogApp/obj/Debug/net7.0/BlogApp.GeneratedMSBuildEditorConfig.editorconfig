@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\BlogApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Posts/Components/NewPosts/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ29tcG9uZW50c1xOZXdQb3N0c1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

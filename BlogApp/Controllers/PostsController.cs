@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using BlogApp.Models;
 using Data.Abstract;
@@ -49,17 +50,20 @@ namespace BlogApp.Controllers
         }
 
         [HttpPost]
-        public async Task<JsonResult> AddComment(int id, string UserName, string Text)
+        public async Task<JsonResult> AddComment(int id, string Text)
         {
             var post = await _postRepository.Posts.FirstOrDefaultAsync(p => p.PostId == id);
             if (post != null) 
             {
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var UserName = User.FindFirstValue(ClaimTypes.Name);
+                var Image = User.FindFirstValue(ClaimTypes.UserData);
                 var entity = new Comment
                 {
                     Text = Text,
                     CreatedAt = DateTime.Now,
                     PostId = id,
-                    User = new User { UserName = UserName, Image = "p1.jpg" }
+                    UserId = int.Parse(userId ?? "")
                 };
                 _commentRepository.CreateComment(entity);
                 //return Redirect("/posts/" + post!.Url); bu işlem ajax işlemi ile yapılıyor
@@ -68,7 +72,7 @@ namespace BlogApp.Controllers
                     UserName,
                     Text,
                     entity.CreatedAt,
-                    entity.User.Image
+                    Image
                 });
             }
             // return RedirectToAction("Index");

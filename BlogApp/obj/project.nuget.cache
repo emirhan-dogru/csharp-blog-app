@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KZC8Ra0F+7g=",
+  "dgSpecHash": "KV8WTEg7N94=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\BlogApp\\BlogApp\\BlogApp.csproj",
+  "projectFilePath": "C:\\Users\\HUAWEI\\source\\repos\\vscode .net core mvc 7.0\\BlogApp\\blogapp\\BlogApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HUAWEI\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\HUAWEI\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.10\\microsoft.data.sqlite.core.7.0.10.nupkg.sha512",
