@@ -17,7 +17,9 @@ builder.Services.AddScoped<IPostRepository , EfPostRepository>();
 builder.Services.AddScoped<ITagRepository , EfTagRepository>();
 builder.Services.AddScoped<ICommentRepository , EfCommentRepository>();
 builder.Services.AddScoped<IUserRepository , EfUserRepository>();
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options => {
+    options.LoginPath = "/login";
+});
 
 var app = builder.Build();
 
@@ -30,8 +32,14 @@ app.UseAuthorization();
 SeedData.CreateSeedData(app);
 
 app.MapControllerRoute(
+    name : "userProfile",
+    pattern : "u/{username}",
+    defaults :  new {  controller = "Auth" , action = "Profile" }
+);
+
+app.MapControllerRoute(
     name : "postDetails",
-    pattern : "posts/{url}",
+    pattern : "post/{url}",
     defaults :  new {  controller = "Posts" , action = "Details" }
 );
 

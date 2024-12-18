@@ -9,47 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlogApp
 build_property.RootNamespace = BlogApp
-build_property.ProjectDir = C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\BlogApp\
+build_property.ProjectDir = C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\blogapp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\BlogApp
+build_property.MSBuildProjectDirectory = C:\Users\HUAWEI\source\repos\vscode .net core mvc 7.0\BlogApp\blogapp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Auth/Login.cshtml]
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Auth/Register.cshtml]
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Auth/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Posts/Components/NewPosts/Default.cshtml]
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Posts/Components/NewPosts/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ29tcG9uZW50c1xOZXdQb3N0c1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Posts/Components/TagsMenu/Default.cshtml]
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Posts/Components/TagsMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ29tcG9uZW50c1xUYWdzTWVudVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Posts/Details.cshtml]
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Posts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Posts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Posts/Index.cshtml]
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Posts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Posts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/Shared/Layout.cshtml]
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Posts/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/Shared/Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/_ViewImports.cshtml]
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/BlogApp/Views/_ViewStart.cshtml]
+[C:/Users/HUAWEI/source/repos/vscode .net core mvc 7.0/BlogApp/blogapp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

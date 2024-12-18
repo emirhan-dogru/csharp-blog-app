@@ -48,6 +48,7 @@ namespace BlogApp
                         {
                             PostId = 1,
                             Title = "Asp.net core",
+                            Description = "Asp.net core dersleri",
                             Content = "Asp.net core dersleri",
                             Url = "asp-net-core",
                             IsActive = true,
@@ -64,6 +65,7 @@ namespace BlogApp
                         {
                             PostId = 2,
                             Title = "Pyhton",
+                            Description = "Pyhton dersleri",
                             Content = "Pyhton dersleri",
                             Url = "pyhton",
                             IsActive = true,
@@ -76,6 +78,7 @@ namespace BlogApp
                          {
                              PostId = 3,
                              Title = "Nodejs",
+                             Description = "Nodejs dersleri",
                              Content = "Nodejs dersleri",
                              Url = "node-js",
                              IsActive = true,
